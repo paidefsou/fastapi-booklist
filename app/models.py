@@ -1,7 +1,3 @@
-import email
-from click import password_option
-from unicodedata import name
-from xmlrpc.client import Boolean
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, null
 from sqlalchemy.sql.expression import text
 from sqlalchemy.sql.sqltypes import TIMESTAMP
